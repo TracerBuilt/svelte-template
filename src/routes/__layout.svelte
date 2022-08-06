@@ -2,6 +2,6 @@
 	import '../styles/app.css'
 </script>
 
-<main class="flex-1">
+<main class="flex-grow">
 	<slot />
 </main>

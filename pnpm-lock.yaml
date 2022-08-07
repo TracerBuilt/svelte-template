@@ -47,7 +47,6 @@ specifiers:
   svelte-check: ^2.8.0
   svelte-loader: ^3.1.3
   svelte-preprocess: ^4.10.7
-  sveltekit-autoimport: ^1.6.9
   tailwindcss: ^3.1.8
   tailwindcss-opentype: ^1.0.0
   tslib: ^2.4.0
@@ -104,7 +103,6 @@ devDependencies:
   svelte-check: 2.8.0_txuy7y23qbwmvahbxqvhcdtlqa
   svelte-loader: 3.1.3_svelte@3.49.0
   svelte-preprocess: 4.10.7_diezqzizu3nhtxoxmrtcunfyzi
-  sveltekit-autoimport: 1.6.9
   tailwindcss: 3.1.8
   tailwindcss-opentype: 1.0.0_tailwindcss@3.1.8
   tslib: 2.4.0
@@ -11984,15 +11982,6 @@ packages:
       htmlparser2-svelte: 4.1.0
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /sveltekit-autoimport/1.6.9:
-    resolution: {integrity: sha512-amnQpqIc24lJqkTP3ak+gItOagjBDMVZQok2JNPm3OeL5z6qMRQumEL7876FNNcpg9XrxmmSr5od/8MP5eBTbQ==}
-    dependencies:
-      '@rollup/pluginutils': 4.2.1
-      estree-walker: 2.0.2
-      magic-string: 0.26.2
-      svelte: 3.49.0
     dev: true
 
   /symbol.prototype.description/1.0.5:

@@ -2,6 +2,6 @@
 	import '../styles/app.css'
 </script>
 
-<main class="flex-grow">
+<main class="flex-grow max-h-screen">
 	<slot />
 </main>

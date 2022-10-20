@@ -6,20 +6,10 @@
 
 @layer base {
 	html {
-		@apply h-full;
-		@apply text-base;
-		@apply font-serif;
-		@apply antialiased;
+		@apply h-full font-serif text-base antialiased opacity-100;
 	}
 
 	body {
-		@apply relative;
-		@apply bg-grey-1;
-		@apply text-grey-11;
-		@apply dark:bg-grey-11;
-		@apply dark:text-grey-1;
-		@apply h-full;
-		@apply flex;
-		@apply flex-col;
+		@apply relative flex h-full flex-col bg-grey-1 text-grey-11 dark:bg-grey-11 dark:text-grey-1;
 	}
 }
